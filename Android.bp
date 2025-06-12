@@ -78,7 +78,9 @@ cc_library_shared {
         "libutils",
     ],
     header_libs: ["libmedia_headers"],
-    srcs: ["libaudioclient/AudioTrack.cpp"],
+    srcs: [
+        "libaudioclient/AudioSystem.cpp",
+    ],
 }
 
 cc_library_shared {
